@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -10,8 +9,8 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     },[])
     return (
-        <div>
-            
+        <div className="md:w-2/3">
+            <h1 className="text4xl">Blogs</h1>
         </div>
     );
 };
