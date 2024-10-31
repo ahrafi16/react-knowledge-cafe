@@ -4,7 +4,7 @@ import { FaBookBookmark } from 'react-icons/fa6';
 const Blog = ({ blog,handleAddBookmark,handleMarkasRead }) => {
     const {id,title, cover, author, author_img, reading_time, posted_date, hashtags} = blog; 
     return (
-        <div className='mb-20 space-y-4'>
+        <div className='mb-20 space-y-4  border rounded-2xl p-2'>
             <img className='w-full mb-8 rounded-2xl' src={cover} alt={`Cover picture of the title ${title}`} />
             <div className='flex justify-between mb-4'>
                 <div className='flex'>  
